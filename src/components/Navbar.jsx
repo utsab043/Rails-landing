@@ -1,4 +1,4 @@
-import { ArrowRight } from "react-feather"
+import { ArrowRight } from "react-feather" 
 const Navbar = () => {
 return (
     <div className="flex header">
