@@ -1,7 +1,7 @@
 import { ArrowRight } from "react-feather"
 const HeroSection = () => {
   return (
-    <div className="flex hero"> 
+    <div id="Hero" className="flex hero"> 
       <div>
       <h1>Impossible alone,<br />Possible together.</h1>
      <p>The modern project management tool for your business.</p> 

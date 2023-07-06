@@ -5,7 +5,7 @@ import AboutUs from "../components/AboutUs"
 import Footer from "../components/Footer"
 const LandingPage = () => {
   return (
-    <main>
+    <main id="Home">
      <div className="top-section">
       <Navbar />
       <HeroSection />

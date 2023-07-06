@@ -6,7 +6,7 @@ const Features = () => {
   Aos.init({duration:2500});
   },[])
   return (
-    <div>
+    <div id="Features">
     <h2>Features</h2>
         <div className="flex features-body" >
         <span>
