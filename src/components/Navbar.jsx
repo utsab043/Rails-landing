@@ -1,10 +1,8 @@
-const Header = () => {
-  return (
+import { ArrowRight } from "react-feather"
+const Navbar = () => {
+return (
     <div className="flex header">
-     <span>
-      <img src="logo.svg" alt=""/>
-      <span>Rails</span>
-     </span>
+     <img src="logo.svg" alt="" className="logo"/>
      <nav>
       <ul className="listed-items">
         <li><a>Home</a></li>
@@ -13,8 +11,8 @@ const Header = () => {
         <li><a>Contact Us</a></li>
       </ul>
      </nav>
-     <button className="btn">Sign in</button>
+     <button className="btn-signin flex gap-1">Sign in <ArrowRight /> </button>
     </div>
   )
 }
-export default Header
+export default Navbar

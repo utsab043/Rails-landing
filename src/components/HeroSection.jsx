@@ -1,7 +1,15 @@
+import { ArrowRight } from "react-feather"
 const HeroSection = () => {
   return (
     <div className="flex hero"> 
-      <img src="pc.png" alt="" className="hero-img" />
+      <div>
+      <h1>Impossible alone,<br />Possible together.</h1>
+     <p>The modern project management tool for your business.</p>
+      <button className="btn-start flex gap-1">Start now <ArrowRight /> </button>
+     </div>
+      <div className="glass">
+      <img src="p.png" alt="" className="hero-img" />
+      </div>
     </div>
   )
 }
