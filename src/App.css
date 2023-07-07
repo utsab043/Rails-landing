@@ -39,6 +39,11 @@ body {
   padding: 0.5em 0;
 }
 
+.container {
+  max-width: 80%;
+  margin: 1.5em auto;
+}
+
 ul {
   list-style: none;
 }
@@ -110,10 +115,24 @@ a {
   font-size: 20px;
 }
 
+.contact {
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em;
+}
+
 h2 {
   font-size: 40px;
   text-align: center;
 }
+
+.about-card {
+  border: none solid black;
+  text-align: center;
+  padding: 1.5em;
+  max-width: 30%;
+}
+
 
 .hero {
   max-width: 85%;
